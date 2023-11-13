@@ -5,6 +5,9 @@ require('acollie.after.plugin.telescope')
 require('acollie.after.plugin.treesitter')
 require('acollie.after.plugin.orgmode')
 
+vim.cmd("set spell spelllang=en_gb")
+
+vim.cmd("set mouse=a")
 
 vim.o.relativenumber = true
 vim.o.number = true
